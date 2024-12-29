@@ -64,3 +64,19 @@ print((a == b) or (a > b))
 
 # Type Conversion
 
+a = 2
+b = int(4.25)
+a = float(a)
+b = str(b)
+
+print(type(a))
+print(type(b))
+
+# Input from user
+
+name = input("Enter your name: ")
+print("My name is: ",name)
+
+number1 = int(input("Enter the number: "))
+number2 = float(input("Enter the number: "))
+print(number1 + number2)
