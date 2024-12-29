@@ -61,3 +61,6 @@ b = 25
 print(not(a > b))
 print(a and b)
 print((a == b) or (a > b))
+
+# Type Conversion
+
