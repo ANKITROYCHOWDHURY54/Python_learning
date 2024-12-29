@@ -15,7 +15,7 @@ print(type(price ))
 
 a = 23
 b = 25
-# Assignment operators
+# Arithmetic operators
 sum = a + b
 minus = a - b
 product = a * b
@@ -35,3 +35,29 @@ a = 23
 b = 25
 
 print(a == b)
+print(a != b)
+print(a >= b)
+print(a <= b)
+print(a > b)
+print(a < b)
+
+# Assignment Operators
+num = 10
+num += 10
+num -= 10
+num *= 5
+num /= 5
+num **= 5
+print("The sum is: ",num)
+
+# Logical Operators
+
+print(not True)
+print(not False)
+
+a = 50
+b = 25
+
+print(not(a > b))
+print(a and b)
+print((a == b) or (a > b))
